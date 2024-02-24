@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Noticias</title>
+</head>
+<body>
+  <main>
+    <div class="sign-up-holder">
+      <picture>
+        <source>
+        <img class="image" src="./assets/images/illustration-sign-up-mobile.svg" alt="">
+      </picture>
+      <section class="info text">
+        <h1>Fique atento !!!</h1>
+  
+        <p>Junte-se a mais de 60.000 gerentes de produto que recebem atualizações mensais sobre:</p>
+  
+        <div class="update-list">
+          <div class="list-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#24F460"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+            <span>Descoberta de produtos e construção do que importa</span>
+          </div>
+  
+          <div class="list-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#24F460"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+            <span>Medir para garantir que as atualizações sejam um sucesso</span>
+          </div>
+  
+          <div class="list-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#24F460"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+            <span>E muito mais!</span>
+          </div>
+        </div>
+  
+        <form id="email-form" class="email-form">
+          <label for="email"><b>Endereço de E-mail</b></label>
+          <input id="email-input" type="email" name="email" placeholder="email@gmail.com" required>
+          <button id="subscribe-btn" type="submit"><b>Assine nossa plataforma</b></button>
+        </form>
+      </section>
+    </div>
+   
+    <section class="success-msg  hidden">
+        <picture>
+          <img src="./assets/images/icon-success.svg" alt="">
+        </picture>
+        <h1>Obrigado por Assinar nossa Plataforma</h1>
+        <p>Um e-mail de confirmação foi enviado para <b>https://phca.vercel.app</b>. Por favor, abra-o e clique no botão dentro para confirmar sua inscrição."
+        </p>
+        <button id="dismiss" type="button">Dispensar Mensagem</button>
+    </section>
+  
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
